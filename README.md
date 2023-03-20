@@ -1,9 +1,9 @@
 
-[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/bank-statement-import&target_branch=14.0)
-[![Pre-commit Status](https://github.com/OCA/bank-statement-import/actions/workflows/pre-commit.yml/badge.svg?branch=14.0)](https://github.com/OCA/bank-statement-import/actions/workflows/pre-commit.yml?query=branch%3A14.0)
-[![Build Status](https://github.com/OCA/bank-statement-import/actions/workflows/test.yml/badge.svg?branch=14.0)](https://github.com/OCA/bank-statement-import/actions/workflows/test.yml?query=branch%3A14.0)
-[![codecov](https://codecov.io/gh/OCA/bank-statement-import/branch/14.0/graph/badge.svg)](https://codecov.io/gh/OCA/bank-statement-import)
-[![Translation Status](https://translation.odoo-community.org/widgets/bank-statement-import-14-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/bank-statement-import-14-0/?utm_source=widget)
+[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/bank-statement-import&target_branch=12.0)
+[![Pre-commit Status](https://github.com/OCA/bank-statement-import/actions/workflows/pre-commit.yml/badge.svg?branch=12.0)](https://github.com/OCA/bank-statement-import/actions/workflows/pre-commit.yml?query=branch%3A12.0)
+[![Build Status](https://github.com/OCA/bank-statement-import/actions/workflows/test.yml/badge.svg?branch=12.0)](https://github.com/OCA/bank-statement-import/actions/workflows/test.yml?query=branch%3A12.0)
+[![codecov](https://codecov.io/gh/OCA/bank-statement-import/branch/12.0/graph/badge.svg)](https://codecov.io/gh/OCA/bank-statement-import)
+[![Translation Status](https://translation.odoo-community.org/widgets/bank-statement-import-12-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/bank-statement-import-12-0/?utm_source=widget)
 
 <!-- /!\ do not modify above this line -->
 
@@ -21,20 +21,21 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[account_statement_import](account_statement_import/) | 14.0.3.3.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Import Statement Files
-[account_statement_import_base](account_statement_import_base/) | 14.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Base module for Bank Statement Import
-[account_statement_import_camt](account_statement_import_camt/) | 14.0.1.2.0 |  | CAMT Format Bank Statements Import
-[account_statement_import_camt54](account_statement_import_camt54/) | 14.0.1.1.0 |  | Bank Account Camt54 Import
-[account_statement_import_file_reconciliation_widget](account_statement_import_file_reconciliation_widget/) | 14.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Import Statement Files and Go Direct to Reconciliation
-[account_statement_import_move_line](account_statement_import_move_line/) | 14.0.1.0.0 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Import journal items into bank statement
-[account_statement_import_ofx](account_statement_import_ofx/) | 14.0.1.0.0 |  | Import OFX Bank Statement
-[account_statement_import_ofx_by_acctid](account_statement_import_ofx_by_acctid/) | 14.0.1.0.0 |  | Import OFX Bank Statement by ACCTID
-[account_statement_import_online](account_statement_import_online/) | 14.0.4.0.0 | [![alexey-pelykh](https://github.com/alexey-pelykh.png?size=30px)](https://github.com/alexey-pelykh) | Online bank statements update
-[account_statement_import_online_paypal](account_statement_import_online_paypal/) | 14.0.1.0.0 | [![alexey-pelykh](https://github.com/alexey-pelykh.png?size=30px)](https://github.com/alexey-pelykh) | Online bank statements for PayPal.com
-[account_statement_import_online_ponto](account_statement_import_online_ponto/) | 14.0.2.0.0 |  | Online Bank Statements: MyPonto.com
-[account_statement_import_online_ponto_ing](account_statement_import_online_ponto_ing/) | 14.0.1.0.0 |  | Online Bank Statements: MyPonto.com ING customization
-[account_statement_import_paypal](account_statement_import_paypal/) | 14.0.1.0.0 |  | Import PayPal CSV files as Bank Statements in Odoo
-[account_statement_import_txt_xlsx](account_statement_import_txt_xlsx/) | 14.0.3.0.0 | [![alexey-pelykh](https://github.com/alexey-pelykh.png?size=30px)](https://github.com/alexey-pelykh) | Import TXT/CSV or XLSX files as Bank Statements in Odoo
+[account_bank_statement_clear_partner](account_bank_statement_clear_partner/) | 12.0.1.0.0 |  | Clear all partners in bank statement lines
+[account_bank_statement_import_bypass_check](account_bank_statement_import_bypass_check/) | 12.0.1.0.0 |  | Allow possibility to bypass check in Bank statement import
+[account_bank_statement_import_camt_oca](account_bank_statement_import_camt_oca/) | 12.0.1.0.1 |  | CAMT Format Bank Statements Import
+[account_bank_statement_import_move_line](account_bank_statement_import_move_line/) | 12.0.1.0.0 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Import journal items into bank statement
+[account_bank_statement_import_ofx](account_bank_statement_import_ofx/) | 12.0.1.1.0 |  | Import OFX Bank Statement
+[account_bank_statement_import_online](account_bank_statement_import_online/) | 12.0.2.0.0 | [![alexey-pelykh](https://github.com/alexey-pelykh.png?size=30px)](https://github.com/alexey-pelykh) | Online bank statements update
+[account_bank_statement_import_online_paypal](account_bank_statement_import_online_paypal/) | 12.0.1.1.0 | [![alexey-pelykh](https://github.com/alexey-pelykh.png?size=30px)](https://github.com/alexey-pelykh) | Online bank statements for PayPal.com
+[account_bank_statement_import_online_ponto](account_bank_statement_import_online_ponto/) | 12.0.1.3.0 |  | Online Bank Statements: MyPonto.com
+[account_bank_statement_import_online_qonto](account_bank_statement_import_online_qonto/) | 12.0.1.0.0 |  | Online Bank Statements: Qonto.eu
+[account_bank_statement_import_online_transferwise](account_bank_statement_import_online_transferwise/) | 12.0.1.1.0 | [![alexey-pelykh](https://github.com/alexey-pelykh.png?size=30px)](https://github.com/alexey-pelykh) | Online bank statements for Wise.com (TransferWise.com)
+[account_bank_statement_import_paypal](account_bank_statement_import_paypal/) | 12.0.2.2.4 |  | Import PayPal CSV files as Bank Statements in Odoo
+[account_bank_statement_import_save_file](account_bank_statement_import_save_file/) | 12.0.1.0.0 |  | Keep imported bank statements as raw data
+[account_bank_statement_import_split](account_bank_statement_import_split/) | 12.0.1.0.1 | [![alexey-pelykh](https://github.com/alexey-pelykh.png?size=30px)](https://github.com/alexey-pelykh) | Split statements by date during import
+[account_bank_statement_import_transfer_move](account_bank_statement_import_transfer_move/) | 12.0.1.0.0 |  | Bank Account Transfer Line
+[account_bank_statement_import_txt_xlsx](account_bank_statement_import_txt_xlsx/) | 12.0.2.0.6 | [![alexey-pelykh](https://github.com/alexey-pelykh.png?size=30px)](https://github.com/alexey-pelykh) | Import TXT/CSV or XLSX files as Bank Statements in Odoo
 
 [//]: # (end addons)
 
